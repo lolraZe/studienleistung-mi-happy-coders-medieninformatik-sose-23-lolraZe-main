@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins-Light.ttf");
+}
+
+@media only screen and (min-width: 750px) {
+    #navigation {visibility: hidden;}
+}
+@media only screen and (max-width: 750px) {
+    #us,#blog,#kontakt,#twitch,#twitter,#instagram,#youtube {visibility: hidden;}
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+    font-weight: 300;
+}
+
+.header {
+    background-color: #d3d3d3;
+    padding: 20px 50px;
+    margin: 10px;
+}
+.upperpart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    margin-top:10px;
+    display: flex;
+}
+
+.icons {
+    display: flex;
+}
+
+#us{
+    margin-right: 10px;
+}
+
+#blog {
+    margin-right: 10px;
+}
+
+#kontakt {
+    margin-right: 25px;
+    text-decoration: underline;
+}
+
+.bi-bi-oben{
+    margin-right: 15px;
+}
+
+.lowerpart {
+    display: flex;
+}
+
+#hilfe-ub{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#hilfe-inhalt{
+    font-size: 50px;
+    text-align: center;
+}
+
+.bilder{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box {
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Email{
+    width: 30%;
+}
+
+.Hilfe {
+    width: 20%;
+}
+
+.Projekt{
+    width: 20%;
+}
+
+.box-uberschrift{
+    margin-left: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.box-inhalt{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.bi-bi-icon{
+    margin-left: 50%;
+}
+
+#up{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.icons-unten{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.bi-unten-icons{
+    margin-left: 50px;
+}
+
+#mwh {
+    text-align: center;
+}
