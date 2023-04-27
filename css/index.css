@@ -2,6 +2,7 @@
     font-family: Poppins;
     src: url("../fonts/Poppins-Light.ttf");
 }
+
 @media only screen and (max-width: 1100px) {
     #pc {display: none;}
     .welcome{justify-content: start;}
@@ -12,6 +13,7 @@
     #us,#blog,#kontakt,#twitch,#twitter,#instagram,#youtube {visibility: hidden;}
     #erklärung {scale:80%;}
 }
+
 @media only screen and (min-width: 750px) {
     #navigation {visibility: hidden;}
 }
@@ -20,17 +22,19 @@
         margin: 0;
         font-family: Poppins;
         font-weight: 300;
-    }
+}
 
 .header {
     background-color: #d3d3d3;
     padding: 20px 50px;
     margin: 10px;
 }
+
 .upperpart {
     display: flex;
     justify-content: space-between;
 }
+
 .nav {
     margin-top:10px;
     display: flex;
@@ -55,10 +59,12 @@
 
  .bi-bi-oben{
      margin-right: 15px;
+     width: 16px;
+     height: 18px;
  }
 
  .lowerpart {
-
+     font-size: 37px;
      display: flex;
  }
 
@@ -130,11 +136,15 @@
     margin-left: 20px;
      font-size: 30px;
  }
+
  .bi-bi-icon{
      margin-left: 50%;
+     width:70px;
+     height:70px;
  }
 
  .icons-unten{
+     font-size: 40px;
      display: flex;
      justify-content: center;
      margin-top: 70px;
@@ -142,8 +152,11 @@
 
  .bi-unten-icons{
      margin-left: 50px;
+     width: 40px;
+     height: 40px;
  }
 
  #mwh {
      text-align: center;
  }
+

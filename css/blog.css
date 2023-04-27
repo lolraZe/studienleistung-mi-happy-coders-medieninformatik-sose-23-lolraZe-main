@@ -6,6 +6,7 @@
 @media only screen and (min-width: 750px) {
     #navigation {visibility: hidden;}
     }
+
 @media only screen and (max-width: 750px) {
     #us,#blog,#kontakt,#twitch,#twitter,#instagram,#youtube {visibility: hidden;}
 }
@@ -21,6 +22,7 @@
         padding: 20px 50px;
         margin: 10px;
     }
+
     .upperpart {
         display: flex;
         justify-content: space-between;
@@ -50,6 +52,8 @@
 
     .bi-bi-oben{
         margin-right: 15px;
+        width: 16px;
+        height: 18px;
     }
 
     .lowerpart {
@@ -72,13 +76,8 @@
     width: 300px;
 }
 
-.l-oben{
-    margin-bottom: 40px;
-    max-width: 300px;
-}
-
-.l-mitte{
-    margin-bottom: 40px;
+.post-l-mitte{
+    margin: 40px 0px;
 }
 
 .mitte{
@@ -87,12 +86,8 @@
     width: 500px;
 }
 
-.m-oben{
-    margin-bottom: 40px;
-}
-
-.m-mitte{
-    margin-bottom: 40px;
+.post-m-mitte{
+    margin: 40px 0px;
 }
 
 .ml{
@@ -100,16 +95,11 @@
 }
 
 .rechts{
-
     width: 400px;
 }
 
-.r-oben{
-    margin-bottom: 40px;
-}
-
-.r-mitte{
-    margin-bottom: 40px;
+.post-r-mitte{
+    margin: 40px 0px;
 }
 
 .icons-unten{
@@ -120,8 +110,23 @@
 
 .bi-unten-icons{
     margin-left: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 #mwh {
     text-align: center;
 }
+
+.bildblog-links{
+    width: 300px;
+}
+
+.bildblog-mitte{
+    width: 500px;
+}
+
+.bildblog-rechts {
+    width: 400px;
+}
+
